@@ -13,4 +13,4 @@ Requires several standard packages, tqdm, sentence-transformers, scipy, torch (i
 Due to size restrictions, only the small corpus based on the papers' abstracts is uploaded. Hence, the notebook would automatically create the corpus embeddings using a transformer network. This step takes some time (hence the embeddings are stored in a file) 
 
 Questions to CORVID-19 can be asked via ask_question. The best matching paragraphs in the corpus (i.e. the abstracts) are returned. 
-This should either be used as the response or lead to further investigation of the returned papers.
+This should either be used as the response or lead to further investigation of the returned papers - e.g. by checking the references, related papers etc.
