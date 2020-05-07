@@ -1,5 +1,5 @@
 # cord-chat
-This proof of concept is based on the CORVID-19 KAGGLE challenge https://www.kaggle.com/covid19 It provides a simple chatbot question answering functionality to answer COVID-19 queries.
+This proof of concept is based on the CORVID-19 KAGGLE challenge https://www.kaggle.com/covid19 It provides a simple chatbot question answering functionality to answer COVID-19 queries based on ~30000 papers provided for this challenges.
 
 The notebook does not apply fine tuning, it applies a pre-trained NLP model from e.g. the sentence-transformers project. The notebook embeds the challenge's COVID 19 papers' paragraphs (from the abstracts or the fulltexts) into a corpus of embeddings. The papers had been pre-processed for the challenge, i.e. converted from source format (e.g. pdf) into a json file based on which this notebook trains. The papers and the according licenses can be found via https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge.
 
